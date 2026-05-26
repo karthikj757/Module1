@@ -1,4 +1,6 @@
-# Conditional Statements in Python: Even or Odd Checker
+## KARTHIK J (212225040176)
+
+# 1. Conditional Statements in Python: Even or Odd Checker
 
 ## 🎯 Aim
 To write a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
@@ -27,7 +29,7 @@ else:
 Successfully wrote a Python program to check whether the given number is **even** or **odd** using `if...else` statements.
 
 
-# Ex 1:Datatypes-Boolean Expression Evaluation in Python
+# 2. Datatypes-Boolean Expression Evaluation in Python
 
 ## 🎯 Aim
 To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
@@ -59,7 +61,8 @@ print("d:",d)
 ## Result
 Successfully wrote a Python program that evaluates and prints the results of boolean and arithmetic expressions involving `True` and `False`.
 
-# Datatypes-Character Literal in Python
+
+# 3. Datatypes-Character Literal in Python
 
 ## 🎯 Aim
 To write a Python program that prints the characters `'T'` and `'a'` using character literals.
@@ -81,3 +84,52 @@ print(y)
 ## Result
 Successfully wrote a Python program that prints the characters `'T'` and `'a'` using character literals.
 
+# 4. Datatypes-Complex Number Creation in Python
+
+## 🎯 Aim
+To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+## 🧠 Algorithm
+1. Read an integer input from the user and assign it to the variable `a` (real part).
+2. Read another integer input from the user and assign it to the variable `b` (imaginary part).
+3. Create a complex number `x` using the `complex(a, b)` function.
+4. Print the complex number `x`.
+5. Print the real part of `x` using `x.real`.
+6. Print the imaginary part of `x` using `x.imag`.
+
+## 💻 Program
+```py
+a=int(input())
+b=int(input())
+x=complex(a,b)
+print(x)
+print(float(x.real))
+print(float(x.imag))
+```
+## Output
+<img width="462" height="306" alt="image" src="https://github.com/user-attachments/assets/3b99b238-0dd4-42d4-a9d2-5b1412586ebd" />
+
+## Result
+Successfully wrote a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
+
+
+# 5. Datatypes-Read and Print a String in Python
+
+## 🎯 Aim
+To write a Python program to read a string from the user and then print it.
+
+## 🧠 Algorithm
+1. Assign a variable named `men_stepped_on_the_moon`.
+2. Use `input()` to read a string from the user and store it in the variable.
+3. Print the value stored in the variable.
+
+## 🧾 Program
+```py
+men_stepped_on_the_moon=int(input())
+print(men_stepped_on_the_moon)
+```
+## Output
+<img width="347" height="207" alt="image" src="https://github.com/user-attachments/assets/9dbd292a-5736-4618-b270-d9bcaf652fbe" />
+
+## Result
+Successfully wrote a Python program to read a string from the user and then print it.
